@@ -1,5 +1,5 @@
 import Container from "../../components/Container";
-import Footer from "../../components/Footer";
+import Footer from "../../components/footer/Footer";
 
 import About from "../about/About";
 import Connect from "../connect/Connect";
