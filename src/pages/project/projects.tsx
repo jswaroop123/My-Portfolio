@@ -21,14 +21,7 @@ const Projects = () => {
       projectUrl: "https://github.com/jagadish018/colon_cancer_prediction",
       description:
         "Developed Deep learning model using ResNet50 + Streamlit . It detects Colon Cancer",
-    },
-    {
-      emoji: "💻⚙️",
-      title: "CPU Scedule Visualizer",
-      projectUrl:
-        "https://github.com/jagadish018/CPU-Scheduler-Algo-Visualizer",
-      description: "Developed Algorithm visualizer using React + TailwindCSS",
-    },
+    }
   ];
 
   return (

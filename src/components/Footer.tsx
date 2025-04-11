@@ -22,10 +22,10 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className=" bg-gray-700 mt-20">
+    <footer className=" bg-gray-900 mt-5">
       <div className="mx-auto w-full max-w-screen-xl">
         {/* Bottom bar */}
-        <div className="px-4 py-4 bg-gray-700 md:flex md:items-center md:justify-between">
+        <div className="px-4 py-4 md:flex md:items-center md:justify-between md:px-[-300px]">
           <span className="text-sm text-white  sm:text-center">
             Copyright © 2025{" "}
             <a href="Deep learning" className="hover:underline">

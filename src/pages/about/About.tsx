@@ -11,7 +11,7 @@ const About = () => {
           <p>
             with experience in building responsive web applications using modern
           </p>
-          <p>technologies like React, Tailwind CSS, Node.js, and PostgreSQL.</p>
+          <p>technologies like React, Tailwind CSS, Node.js, Hono and PostgreSQL.</p>
           <p>
             I enjoy solving real-world problems with clean code and scalable
             architecture.
