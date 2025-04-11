@@ -24,11 +24,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-700 mt-20">
       <div className="mx-auto w-full max-w-screen-xl px-4 py-6">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-center md:text-left">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10 text-center md:text-center">
           {/* Left: Copyright */}
           <div className="text-sm text-gray-400 md:items-center">
             Copyright © {new Date().getFullYear()} — All rights reserved by 
-            <span> Jagadish C K</span>
+            <span> jyothi swaroop N</span>.
           </div>
 
           {/* Center: Navigation */}
