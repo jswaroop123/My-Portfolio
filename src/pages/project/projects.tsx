@@ -21,6 +21,13 @@ const Projects = () => {
       projectUrl: "https://github.com/jagadish018/colon_cancer_prediction",
       description:
         "Developed Deep learning model using ResNet50 + Streamlit . It detects Colon Cancer",
+    },
+    {
+      emoji: "🧠",
+      title: "Secondbrain",
+      projectUrl: "https://www.neuronest.world/",
+      description:
+        "Developed A Personal Assistant using Next.js, Node.js, and MongoDB. It helps in managing tasks and notes.",
     }
   ];
 

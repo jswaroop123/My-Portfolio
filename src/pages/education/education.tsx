@@ -7,7 +7,14 @@ const Education = () => {
       branch: "Information Science & Engineering",
       duration: "2022 - 2025",
       college: "Siddaganga Institute Of Technology",
-      CGPA: "7.83 CGPA",
+      CGPA: "8.11 CGPA",
+    },
+     {
+      degree: "diploma",
+      branch: "Computer Science & Engineering",
+      duration: "2019 - 2022",
+      college: "Siddaganga Polytechnic Tumkur",
+      CGPA: "82.33%",
     },
   ];
 
