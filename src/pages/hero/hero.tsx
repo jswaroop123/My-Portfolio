@@ -26,7 +26,7 @@ const Hero = () => {
     
     <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto  ">
       <img
-        src="/profile.jpg"
+        src="/public\hacker-hoodie-sitting-his-computer_1028654-9614.avif"
         alt="Jyothi Swaroop N"
         className="rounded-full w-38 h-38 object-cover border p-1"
       />
