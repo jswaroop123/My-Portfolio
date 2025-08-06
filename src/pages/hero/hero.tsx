@@ -42,6 +42,7 @@ const Hero = () => {
           </button>
         </div>
 
+
         <div className="flex flex-wrap gap-3 justify-center md:justify-start">
           {socialLinks.map((item, index) => (
             <a
