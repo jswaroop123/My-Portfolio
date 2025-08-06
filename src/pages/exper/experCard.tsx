@@ -4,8 +4,11 @@ interface ExperienceCardProps {
     companyUrl: string;
     duration: string;
     description: string;
+    description1: string;
     projectName?: string; // Optional property for project name
-    projectUrl?: string; // Optional property for project URL
+    projectName1?: string;
+    projectUrl?: string; 
+    projectUrl1?: string;// Optional property for project URL
   }
   
   const Card = ({
@@ -14,8 +17,11 @@ interface ExperienceCardProps {
     companyUrl,
     duration,
     description,
+    description1,
     projectName,
+    projectName1,
     projectUrl,
+    projectUrl1,
   }: ExperienceCardProps) => {
     return (
       <div className="bg-[#3e3636] p-4 py-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 px-9 w-fit">
@@ -36,10 +42,15 @@ interface ExperienceCardProps {
           </span>
         </div>
   
-        <p className="mt-2 text-white">{description}</p>
+        <p className="mt-2 text-white">{description}{description1}</p>
 
         <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="text-amber-50 hover:text-amber-100 px-1 bg-purple-500 rounded-3xl cursor-pointer">
           {projectName}
+        </a>
+
+
+        <a href={projectUrl1} target="_blank" rel="noopener noreferrer" className="text-amber-50 hover:text-amber-100 px-1 bg-purple-500 rounded-3xl cursor-pointer">
+          {projectName1}
         </a>
       </div>
     );

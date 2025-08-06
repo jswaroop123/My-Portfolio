@@ -7,19 +7,15 @@ const Experience = () => {
       company: "Stacklane",
       companyUrl: "https://stacklane.co/",
       duration: "Mar - Jun 2025",
-      description: "Developed Hackernews server clone",
-      projectName: "Hackernews UI",
-      projectUrl: "https://hackernews-ui-silk.vercel.app/"
-    },
-    {
-      role: "Fullstack Developer Intern",
-      company: "Stacklane",
-      companyUrl: "https://stacklane.co/",
-      duration: "Mar - Jun 2025",
       description: "Developed Secondbrain Presonal Asistant",
       projectName: "Secondbrain",
-      projectUrl: "https://www.neuronest.world/"
+      projectUrl: "https://www.neuronest.world/",
+      description1: "Developed Hackernews server clone",
+      projectName1: "Hackernews UI",
+      projectUrl1: "https://hackernews-ui-silk.vercel.app/"
+      
     },
+    
   ];
 
   return (
@@ -40,6 +36,9 @@ const Experience = () => {
             description={item.description}
             projectName={item.projectName}
             projectUrl={item.projectUrl}
+            description1={item.description1}
+            projectName1={item.projectName1}
+            projectUrl1={item.projectUrl1}
           />
         ))}
       </div>
